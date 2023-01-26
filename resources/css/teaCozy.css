@@ -1,0 +1,47 @@
+body {
+ background-color: #000000;
+ font-family: Helvetica, Arial, sans-serif;
+ font-size: 22px;
+ color: seashell;
+ opacity: 0.9;
+ text-align: center;
+}
+
+#logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#fixed-header {
+  width: 100%;
+  height: 69px;
+  flex-shrink: 1;
+  border-bottom: 1px solid seashell;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 1;
+    width: 100%;
+}
+
+.nav-links > li {
+  display: inline;
+  padding: 0 5;
+  text-decoration: underline;
+}
+
+.mission {
+  justify-content: center;
+  width: 100%;
+}
+
+h4 {
+  z-index: 1;
+}
