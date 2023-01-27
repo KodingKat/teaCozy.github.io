@@ -1,3 +1,4 @@
+/* Generic styling throughout page */
 body {
  background-color: #000000;
  font-family: Helvetica, Arial, sans-serif;
@@ -7,14 +8,15 @@ body {
  text-align: center;
 }
 
-#logo {
-  height: 50px;
-  padding-left: 10px;
-}
 
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+#logo {
+  height: 50px;
+  padding-left: 10px;
 }
 
 #fixed-header {
@@ -37,11 +39,16 @@ body {
   text-decoration: underline;
 }
 
-.mission {
-  justify-content: center;
-  width: 100%;
+.jumbotron {
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  max-width: 1200px;
+  display: inline-flex;
 }
 
-h4 {
-  z-index: 1;
+.mission {
+  background-color: black;
+  margin: 5px 0px 5px 0px;
 }
