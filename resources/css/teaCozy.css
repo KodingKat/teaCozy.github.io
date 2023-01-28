@@ -14,7 +14,7 @@ body {
 
 .container {
   display: flex;
-  justify-content: center;
+  position: relative;
 }
 
 #fixed-header {
@@ -38,10 +38,19 @@ body {
 }
 
 .mission {
-  justify-content: center;
-  width: 100%;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  height: 700px;
+  max-width: 1200px;
+  align-items: center;  
 }
 
 h4 {
-  z-index: 1;
+  z-index: 2;
+}
+
+.mission-outline {
+  background-color: #000000;
+  align-content: center;
+  width: 100%;  ;
 }
