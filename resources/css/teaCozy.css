@@ -57,7 +57,9 @@ body {
 
 /* Featured Tea */
 .featured-tea {
- 
+  max-width: 1000px;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .tea-products {
@@ -76,3 +78,4 @@ body {
   margin: 10px 10px;
 }
 
+/* Locations */
