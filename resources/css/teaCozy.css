@@ -8,12 +8,14 @@ body {
  text-align: center;
 }
 
-/* fixed header */
 .container {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
+
+
+/* fixed header */
 #logo {
   height: 50px;
   padding-left: 10px;
@@ -40,6 +42,7 @@ body {
   text-decoration: underline;
 }
 
+
 /* Jumbotron and mission */
 .jumbotron {
   background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
@@ -57,11 +60,13 @@ body {
 
 /* Featured Tea */
 .featured-tea {
- 
+  max-width: 1000px;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .tea-products {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
@@ -76,3 +81,42 @@ body {
   margin: 10px 10px;
 }
 
+
+/* Locations */
+.test {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.locations-jumbotron {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  min-height: 500px;
+  max-width: 1200px;
+  background-position: center;
+}
+
+.location-tile {
+  justify-content: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.tiles {
+  background-color: black;
+  width: 300px;
+  margin: 15 20 20 20;
+  opacity: 1;
+}
+
+
+/* Contact section */
+.contact {
+  
+  height: 200px;
+}
+
+footer {
+  display: flex;
+  margin-left: 20px;
+}
